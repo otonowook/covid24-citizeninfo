@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: citizeninfo
-          image: "username/citizeninfo:latest"
+          image: "879772956301.dkr.ecr.ca-central-1.amazonaws.com/user10-citizeninfo:lastest"
           ports:
             - containerPort: 8080
           readinessProbe:
